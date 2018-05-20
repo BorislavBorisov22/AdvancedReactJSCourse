@@ -3,7 +3,7 @@ const path = require('path');
 const config = {
     entry: [
         'babel-polyfill',
-        './lib/components/index.js',
+        './lib/renderers/dom.js',
     ],
     output: {
         path: path.resolve(__dirname, 'public'),
