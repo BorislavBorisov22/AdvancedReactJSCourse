@@ -1,0 +1,32 @@
+{
+    "name": "AdvancedReactJSCourse",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/BorislavBorisov22/AdvancedReactJSCourse.git",
+    "author": "BorislavBorisov22 <borislavborisov22@abv.bg>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon --exec babel-node lib/server.js"
+    },
+    "babel": {
+        "presets": [
+            "react",
+            "env",
+            "stage-2"
+        ]
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.2.3",
+        "eslint": "^4.19.1",
+        "eslint-plugin-react": "^7.8.2"
+    },
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "ejs": "^2.6.1",
+        "express.js": "^1.0.0",
+        "nodemon": "^1.17.4"
+    }
+}
