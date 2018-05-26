@@ -8,7 +8,8 @@
     "scripts": {
         "dev": "nodemon --exec babel-node lib/server.js",
         "webpack": "webpack -wd",
-        "test": "jest --watch"
+        "test": "jest --watch",
+        "verify-tests": "jest --coverage"
     },
     "babel": {
         "presets": [
