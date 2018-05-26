@@ -11,7 +11,8 @@
         "test": "jest --watch",
         "verify-tests": "jest --coverage",
         "build-webpack": "webpack -p",
-        "build-node": "babel lib -d build --copy-files"
+        "build-node": "babel lib -d build --copy-files",
+        "start-prod": "nodemon build/server.js"
     },
     "babel": {
         "presets": [
